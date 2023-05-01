@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="td-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terran Drone</title>
+<style>
+* {
+  box-sizing: border-box;
+  font-size: x-large;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  background: rgb(244 109 36);
+  color: rgb(2, 2, 2);
+}
+
+.logo {
+  flex: 3%;
+  background-color: rgb(244 109 36);
+}
+
+
+.CompanyName {   
+  flex: 82%;
+  background-color: rgb(244 109 36);
+  text-align: center;
+}
+.ceo {   
+  font-size: x-large;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 19%;
+  background-color: #f1f1f1;
+  /* padding: 10px; */
+  padding-left: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 81%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  width: 100%;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background: #ddd;
+  position: obsolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="logo"><img src="td-logo.jpeg" alt="Trulli" width="150" height="150"></div>
+  <div class="CompanyName">
+  <h1>Terran Drone</h1>
+  <p>Cheif Executive Officer: Vinod Kumar Andra</p>
+</div>
+</div>
+
+<!-- this code is for links bar -->
+<!-- <div class="navbar">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#" class="right">Link</a>
+</div> -->
+
+<div class="row">
+  <div class="side">
+    <h1>About Me</h1>
+    <h8>Vinod Kumar Andra</h8>
+    <h1>Photo of me:</h1>
+    <!-- <div class="fakeimg" style="height:200px;"><img src="vinod.jpeg" alt="Trulli" width="239" height="200"></div> -->
+    <div class="fakeimg"><img src="vinod.jpeg" alt="Trulli"></div>
+    <h1>Address</h1>
+    <h8>Vijayawada, 
+    <h8>Andhra Pradesh,</h8>
+    <h8>India.</h8>
+    <!-- <p>Some Text..</p>
+    <h3>More Text</h3>
+    <p></p>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div> -->
+  </div>
+  <div class="main">
+    <h2>About Comany</h2>
+    <h10>Having an experienced UAV pilot with a demonstrated history of working in the information technology and services industry. Skilled in Aerial Photography, Aerial Surveys, Data Acquisition, Management, and UAV. Strong operations professional.</h10>
+    <!-- <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>Some Body Text.</p> -->
+    <br>
+    
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Email: VinodKumar@terrandrone.com </h2>
+  <h2>Contact Number : +91 9440197224</h2>
+  <a href="https://www.linkedin.com/in/andra-vinod-kumar-b54823180">
+    <img src="LinkedInLogo.png">
+  </a>
+</div>
+
+</body>
+</html>
